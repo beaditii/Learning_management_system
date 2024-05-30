@@ -29,18 +29,18 @@ User’s profile:
 My Account: 
              1. Add/update/edit/delete profile picture, name, email address
 2. Change Password
-3. Enrolled Courses: when you click on  this will directly go to course access page
+3. Enrolled Courses: when you click on  this will directly go to the course access page
 4.Log out
 
 
 
 Course Page:
 
-1.If you haven’t purchased the video you won’t get all the information e.g. video URL, video source code
-2.Highly protected
-3.For video play, we will use a platform named Video Cipher which platform is giving us JRM encryption. Using this encryption in this video player you cannot record this video or take screenshots, you cannot download this video.
-4.Users can order the course by clicking on Buy this course
-5.Users can pay with AfterPay, the US back cash app, a lot of payment gateway, and Gpay. We will implement a stripe element for this.
+1. If you haven’t purchased the video you won’t get all the information e.g. video URL, video source code
+2. Highly protected
+3. For video play, we will use a platform named Video Cipher which gives us JRM encryption. Using this encryption in this video player you cannot record this video or take screenshots, you cannot download this video.
+4. Users can order the course by clicking on Buy this course
+5. Users can pay with AfterPay, the US back cash app, a lot of payment gateway, and Gpay. We will implement a stripe element for this.
 
 
 
@@ -69,6 +69,8 @@ Admin Dashboard:
 
    
 Content:
+
+
        1. Create Course: 
                         1. Course Information: course name, description, price, 
                                                estimated price,  tags, categories, level, 
