@@ -4,6 +4,7 @@ import express,{NextFunction, Request,Response} from "express";
 export const app = express();  
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import {ErrorMiddleware} from "./middlewares/error";
 
 //body Parser
 app.use(express.json({limit:"50mb"}));
@@ -34,5 +35,5 @@ app.all("*",(req:Request, res:Response, next:NextFunction) => {
 });
 
 
-// zTSWTyek0Oq6Nkvf
-// mongodb+srv://aditisingh27022002:zTSWTyek0Oq6Nkvf@lmsdb.rip2otj.mongodb.net/
+app.use(ErrorMiddleware);
+
